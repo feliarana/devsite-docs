@@ -279,7 +279,7 @@ Finally, add the following code to show the payment button of your Smart Checkou
 <form action="/payment-process" method="POST">
   <script
    src="https://www.mercadopago.com.br/integrations/v1/web-payment-checkout.js"
-   data-preference-id="%= @init_point %>">
+   data-preference-id="<%= @init_point %>">
   </script>
 </form>
 ```
